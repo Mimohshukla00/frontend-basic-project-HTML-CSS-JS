@@ -1,0 +1,32 @@
+/* Set body to light purple and make sure it covers the whole viewport */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6FA; /* Light purple */
+    font-family: Arial, sans-serif;
+}
+
+/* Container to center elements vertically and horizontally */
+.container {
+    text-align: center;
+}
+
+/* Centered box with light yellow background */
+.center {
+    background-color: #FFFFE0; /* Light yellow */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Clock styling */
+#clock {
+    margin-top: 20px; /* Space between the banner and the clock */
+    font-size: 36px;
+    font-weight: bold;
+    color: black; /* Ensure clock text is visible */
+}
